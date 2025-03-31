@@ -1,11 +1,5 @@
 let arr = []
 let n = +prompt(`nhập số lượng phần tử trong mảng`)
-function totalEven(num){
-    for (let i = 1; i <= num; i++){
-        if (num % 2 === 0){
-        }
-    }
-}
 if (n <= 0 || isNaN(n)){
     console.log(`Mảng không có phần tử nào`)
 }else{
